@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS54232
+D 3.5V to 28V Input, 2A, 1MHz Step-Down Converter with Eco-mode
+K Buck
+F ../doc/tps54232.pdf
+$ENDCMP
+#
+#End Doc Library
