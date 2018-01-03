@@ -446,7 +446,7 @@ U 1 1 5A4803F2
 P 2950 1750
 F 0 "J1" V 2950 1850 50  0000 C CNN
 F 1 "Itp_1" V 2850 1700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 2950 1750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2950 1750 50  0001 C CNN
 F 3 "" H 2950 1750 50  0001 C CNN
 F 4 "Value" H 2950 1750 60  0001 C CNN "Link"
 F 5 "V in 6-18V" H 2600 1700 60  0001 C CNN "Comp_Name"
@@ -461,7 +461,7 @@ U 1 1 5A48085E
 P 9700 2100
 F 0 "J3" V 9700 2200 50  0000 C CNN
 F 1 "Itp_2" V 9600 2050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 9700 2100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9700 2100 50  0001 C CNN
 F 3 "" H 9700 2100 50  0001 C CNN
 F 4 "Value" H 9700 2100 60  0001 C CNN "Link"
 F 5 "V out 5V" H 9450 2050 60  0001 C CNN "Comp_Name"
@@ -476,7 +476,7 @@ U 1 1 5A480BB4
 P 3550 4800
 F 0 "J5" H 3550 4900 50  0000 C CNN
 F 1 "Vtp_2" H 3350 4750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 3550 4800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3550 4800 50  0001 C CNN
 F 3 "" H 3550 4800 50  0001 C CNN
 F 4 "Value" H 3550 4800 60  0001 C CNN "Link"
 F 5 "V out 5V" H 3300 4750 60  0001 C CNN "Comp_Name"
@@ -508,7 +508,7 @@ U 1 1 5A480F50
 P 2350 4900
 F 0 "J6" H 2350 5000 50  0000 C CNN
 F 1 "Vtp_1" H 2150 4850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 2350 4900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2350 4900 50  0001 C CNN
 F 3 "" H 2350 4900 50  0001 C CNN
 F 4 "Value" H 2350 4900 60  0001 C CNN "Link"
 F 5 "V in 6-18V" H 2000 4850 60  0001 C CNN "Comp_Name"
@@ -634,4 +634,6 @@ Wire Notes Line
 	4050 5850 1900 5850
 Wire Notes Line
 	1900 5850 1900 4350
+Text Label 9850 2300 0    60   ~ 0
+V5+
 $EndSCHEMATC

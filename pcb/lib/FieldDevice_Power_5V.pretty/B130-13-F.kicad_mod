@@ -46,4 +46,9 @@
   (fp_line (start 2.922001 -1.14774) (end 2.922001 -1.587) (layer F.SilkS) (width 0.1524))
   (pad 1 smd rect (at -1.8572 0 90) (size 1.63 2.1804) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.8572 0 90) (size 1.63 2.1804) (layers F.Cu F.Paste F.Mask))
+  (model Diodes_SMD.3dshapes/D_SMA.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
