@@ -197,7 +197,7 @@ U 1 1 5A479B0E
 P 9250 2600
 F 0 "C4" H 9350 2700 50  0000 L CNN
 F 1 "47.0 μF" H 9350 2500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 9288 2450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1210" H 9288 2450 50  0001 C CNN
 F 3 "" H 9250 2600 50  0001 C CNN
 F 4 "Value" H 9250 2600 60  0001 C CNN "Link"
 F 5 "Cout" H 9450 2600 60  0000 C CNN "Comp_Name"
@@ -225,14 +225,14 @@ L D_Schottky D3
 U 1 1 5A479CF1
 P 8250 2550
 F 0 "D3" V 8250 2650 50  0000 C CNN
-F 1 "0.550V 2.00A" V 8250 2200 50  0000 C CNN
+F 1 "0.550V 2.00A" V 8150 2300 50  0000 C CNN
 F 2 "FieldDevice_Power_5V:D_SOD-123F" H 8250 2550 50  0001 C CNN
 F 3 "https://www.fairchildsemi.com/datasheets/SS/SS24FL.pdf" H 8250 2550 50  0001 C CNN
 F 4 "SS24FL" H 8250 2550 60  0001 C CNN "MPN"
-F 5 "Value" H 8250 2550 60  0001 C CNN "ConradPN"
-F 6 "Value" H 8250 2550 60  0001 C CNN "Label"
-F 7 "Value" H 8250 2550 60  0001 C CNN "Link"
-F 8 "Value" H 8250 2550 60  0001 C CNN "Comp_Name"
+F 5 "Value" H 8250 2550 60  0001 C CNN "Link"
+F 6 "Value" H 8250 2550 60  0001 C CNN "Comp_Name"
+F 7 "Value" H 8250 2550 60  0001 C CNN "ConradPN"
+F 8 "Value" H 8250 2550 60  0001 C CNN "Label"
 	1    8250 2550
 	0    1    1    0   
 $EndComp
@@ -636,4 +636,6 @@ Wire Notes Line
 	1900 5850 1900 4350
 Text Label 9850 2300 0    60   ~ 0
 V5+
+Text Notes 7850 2700 0    60   ~ 0
+Not \nordered!
 $EndSCHEMATC
